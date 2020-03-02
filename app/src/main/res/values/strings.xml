@@ -12,4 +12,6 @@
     <string name="title_activity_win">WinActivity</string>
     <string name="win_text">Поздравляю!  Вы - победитель!</string>
     <string name="loose_text">Вы проиграли!</string>
+    <string name="winimg_text">WinIMG</string>
+    <string name="loose_img">loose_img</string>
 </resources>
