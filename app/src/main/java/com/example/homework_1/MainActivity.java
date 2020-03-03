@@ -52,11 +52,27 @@ public class MainActivity extends AppCompatActivity {
                  }, 1200);
                  if (common_robots >= 100) {
                       Intent i2 = new Intent(this, LooseActivity.class);
+                      your_points.setText("0");
+                      robot_points.setText("0");
+                     first_cube_points.setText("0");
+                     second_cube_points.setText("0");
+                     common_your = 0;
+                     common_robots = 0;
+                     first_rand = 0;
+                     second_rand = 0;
                       startActivity(i2);
                  }
         }
         if (common_your >= 100) {
             Intent i = new Intent(this, WinActivity.class);
+            your_points.setText("0");
+            robot_points.setText("0");
+            first_cube_points.setText("0");
+            second_cube_points.setText("0");
+            common_your = 0;
+            common_robots = 0;
+            first_rand = 0;
+            second_rand = 0;
             startActivity(i);
         }
     }
