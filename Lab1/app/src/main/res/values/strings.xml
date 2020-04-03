@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Игра - На все 100!</string>
+    <string name="rules">Правила игры:\nБросайте кубик по очереди с соперником, наберите первым 100 или больше очков!</string>
+    <string name="your_points">Ваш счёт:</string>
+    <string name="robot_points_text">Счёт соперника:</string>
+    <string name="cubes_text">Кубики</string>
+    <string name="second_cube_points">-</string>
+    <string name="first_cube_points">-</string>
+    <string name="robot_points">0</string>
+    <string name="your_points_number">0</string>
+    <string name="btn_text">Кинуть кубики!</string>
+    <string name="title_activity_win">WinActivity</string>
+    <string name="win_text">Поздравляю!  Вы - победитель!</string>
+    <string name="loose_text">Вы проиграли!</string>
+    <string name="winimg_text">WinIMG</string>
+    <string name="loose_img">loose_img</string>
+</resources>

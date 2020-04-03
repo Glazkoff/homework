@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/rules"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="@string/rules"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/your_points_text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/your_points_text"
+        android:layout_width="433dp"
+        android:layout_height="56dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginRight="1dp"
+        android:gravity="center_horizontal"
+        android:text="@string/your_points"
+        android:textSize="36sp"
+        app:layout_constraintBottom_toTopOf="@+id/your_points"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/rules" />
+
+    <TextView
+        android:id="@+id/robot_points_text"
+        android:layout_width="433dp"
+        android:layout_height="56dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginLeft="1dp"
+        android:gravity="center_horizontal"
+        android:text="@string/robot_points_text"
+        android:textSize="36sp"
+        app:layout_constraintBottom_toTopOf="@+id/robot_points"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/your_points" />
+
+    <TextView
+        android:id="@+id/cube_text"
+        android:layout_width="430dp"
+        android:layout_height="39dp"
+        android:gravity="center_horizontal"
+        android:text="@string/cubes_text"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/second_cube_points"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/robot_points" />
+
+    <TextView
+        android:id="@+id/second_cube_points"
+        android:layout_width="216dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="16dp"
+        android:gravity="center_horizontal"
+        android:text="@string/second_cube_points"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/first_cube_points"
+        app:layout_constraintTop_toBottomOf="@+id/cube_text" />
+
+    <TextView
+        android:id="@+id/first_cube_points"
+        android:layout_width="215dp"
+        android:layout_height="46dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="3dp"
+        android:layout_marginRight="3dp"
+        android:gravity="center_horizontal"
+        android:text="@string/first_cube_points"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toStartOf="@+id/second_cube_points"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cube_text" />
+
+    <TextView
+        android:id="@+id/robot_points"
+        android:layout_width="433dp"
+        android:layout_height="56dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginLeft="1dp"
+        android:layout_marginTop="1dp"
+        android:gravity="center_horizontal"
+        android:text="@string/robot_points"
+        android:textSize="36sp"
+        app:layout_constraintBottom_toTopOf="@+id/cube_text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/robot_points_text" />
+
+    <TextView
+        android:id="@+id/your_points"
+        android:layout_width="433dp"
+        android:layout_height="56dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginLeft="1dp"
+        android:gravity="center_horizontal"
+        android:text="@string/your_points_number"
+        android:textSize="36sp"
+        app:layout_constraintBottom_toTopOf="@+id/robot_points_text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/your_points_text" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="354dp"
+        android:layout_height="74dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginBottom="6dp"
+        android:onClick="onClick"
+        android:text="@string/btn_text"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/second_cube_points" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
