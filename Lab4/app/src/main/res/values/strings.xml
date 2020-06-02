@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Contacts</string>
+    <string name="buttonAdd">Добавить</string>
+    <string name="contactphoto">contactPhoto</string>
+    <string name="editSurname">Фамилия</string>
+    <string name="editName">Имя</string>
+    <string name="editPatronimyc">Отчество</string>
+    <string name="editPhone">Телефон</string>
+    <string name="editEmail">Email</string>
+    <string name="buttonSave">Сохранить</string>
+</resources>
